@@ -1,0 +1,6 @@
+Reading Headers of large csv file from python :
+
+with open(r"D:\AT&T ICI\att_week7_week137\att_week111_to_week137.csv",'r') as f:
+    for line in f:
+        print(line)
+        break
